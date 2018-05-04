@@ -1,0 +1,30 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| test               |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> use test;
+Database changed
+mysql> show tables;
++----------------+
+| Tables_in_test |
++----------------+
+| tb             |
++----------------+
+1 row in set (0.00 sec)
+
+mysql> select * from tb;
++--------+----------+-----------+
+| number | id       | pw        |
++--------+----------+-----------+
+|      1 | my_id    | 12345     |
+|      3 | lmwljw98 | 111234665 |
++--------+----------+-----------+
+2 rows in set (0.00 sec)
