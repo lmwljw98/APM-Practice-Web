@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Login Page</title>
+</head>
+
+<body>
+    <h3>로그인 페이지</h3>
+    <form action="/board/login.php" method="post">
+        ID:
+        <input type="text" name="id"/>
+        <br />
+        PW:
+        <input type="password" name="pw" />
+        <br />
+        <input type="submit" value="로그인" />
+    </form>
+    <input type="button" value="회원가입" onClick="location.href='/board/signin.html'">
+</body>
